@@ -1,0 +1,41 @@
+[0m11:12:43.621553 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181EBB89010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181ECCEBED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181ECCEBB10>]}
+
+
+============================== 11:12:43.650568 | 0013e740-e55d-464e-8116-c30f4064f1fc ==============================
+[0m11:12:43.650568 [info ] [MainThread]: Running with dbt=1.11.2
+[0m11:12:43.652156 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Robel\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt init medical_warehouse', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m11:12:43.873114 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Robel\.dbt
+[0m11:12:43.876661 [info ] [MainThread]: A project called medical_warehouse already exists here.
+[0m11:12:43.878370 [debug] [MainThread]: Command `dbt init` succeeded at 11:12:43.878105 after 0.75 seconds
+[0m11:12:43.879093 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181ECCF6650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181EDD757F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181ECB4F350>]}
+[0m11:12:43.879933 [debug] [MainThread]: Flushing usage events
+[0m11:12:45.849183 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:23:15.846514 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022982879010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000229839DBED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000229839DBB10>]}
+
+
+============================== 11:23:15.854607 | eb467dab-673d-461d-9a32-dfae714fc208 ==============================
+[0m11:23:15.854607 [info ] [MainThread]: Running with dbt=1.11.2
+[0m11:23:15.855839 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Robel\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init medical_warehouse', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m11:23:15.906356 [debug] [MainThread]: Starter project path: C:\Users\Robel\OneDrive\Desktop\medical-telegram-warehouse\.venv\Lib\site-packages\dbt\include\starter_project
+[0m11:23:15.937414 [info ] [MainThread]: 
+Your new dbt project "medical_warehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:23:15.938684 [info ] [MainThread]: Setting up your profile.
+[0m11:25:20.604330 [info ] [MainThread]: Profile medical_warehouse written to C:\Users\Robel\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:25:20.606745 [debug] [MainThread]: Command `dbt init` succeeded at 11:25:20.606478 after 125.08 seconds
+[0m11:25:20.607325 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022984C6DA70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022984CA4710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002298383BBD0>]}
+[0m11:25:20.608000 [debug] [MainThread]: Flushing usage events
+[0m11:25:22.302703 [debug] [MainThread]: An error was encountered while trying to flush usage events
