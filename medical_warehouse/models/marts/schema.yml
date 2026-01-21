@@ -51,3 +51,21 @@ models:
         description: "Number of forwards"
       - name: has_image
         description: "Whether the message has an image"
+
+  - name: fct_image_detections
+    description: "Fact table of YOLO detections joined to messages"
+    columns:
+      - name: message_id
+        description: "Message identifier"
+        tests:
+          - not_null
+      - name: channel_key
+        description: "Channel key from dim_channels"
+      - name: date_key
+        description: "Date key from dim_dates"
+      - name: detected_class
+        description: "YOLO detected class label"
+      - name: confidence_score
+        description: "Detection confidence score"
+      - name: image_category
+        description: "High-level category (promotional, product_display, lifestyle, other)"
